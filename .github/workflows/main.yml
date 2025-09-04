@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch: {}
 
 jobs:
   # Исправлено: Добавлено имя job и перенесен блок steps внутрь нее
